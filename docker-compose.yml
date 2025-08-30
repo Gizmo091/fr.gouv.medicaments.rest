@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
   medicaments-api:
-    image: node:20-alpine
+    image: node:22-alpine
     container_name: medicaments-api
     ports:
       - "${PORT:-3000}:${PORT:-3000}"
